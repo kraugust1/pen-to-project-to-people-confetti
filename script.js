@@ -1,15 +1,15 @@
-// exercise.run(0)
-// exercise.count(100)
-// exercise.pushup("well")
+// Source for Confetti library
+// https://confettijs.org/confetti.min.js
+// ✅ Connect Confetti source code to `<head>` of `index.html`
+//⚠️ What is loaded first? Confetti or your scripts?
 
-// object
-// method
-// options
+// Create variables, instantiate `new` instance of `Confetti`
+// Where to confetti? Target `id` of element
+// Understand context of uses of "confetti"
+let confetti = new Confetti("confetti");
 
-// website loaded?
-
-// javascript is case sensitive the 'console.log' tells us
-// if a website java script is working through the 'inspect element' when viewing the website; look for the "console" in firefox for now
-// Also within the console you can ask some stuff like measureing things with window.innerHeight  ;; the " . " is your space
-
-console.log('ok');
+// Optionally modify given parameters
+confetti.setCount(100);
+confetti.setSize(10);
+confetti.setPower(100);
+confetti.destroyTarget(false);
